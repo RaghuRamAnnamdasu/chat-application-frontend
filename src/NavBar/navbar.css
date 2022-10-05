@@ -1,0 +1,45 @@
+.navbarWrapper{
+    max-height: 75px;
+    display: flex;
+    background-color: #04301F;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userWrapper button {
+    display: flex;
+    gap: 12px;
+    font-size: 18px;
+    border: none;
+    color: white;
+}
+
+.logoWrapper, .logoWrapper img{
+    height: 75px;
+    width : 40%;
+    object-fit: cover;
+
+}
+
+.imageWrapper img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    object-fit: cover;
+  }
+
+
+  .userWrapper button:hover{
+    border: none;
+  }
+
+
+  .imageWrapper{
+    justify-self: center;
+    display: grid;
+  }
+
+  Menu{
+    width: inherit;
+  }

@@ -1,0 +1,57 @@
+
+.conversationTitleCard{
+    display: flex;
+    padding: 8px;
+    gap: 24px;
+    align-items: center;
+    /* position: relative; */
+}
+
+.conversationTitleCard img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.chatName{
+    font-size: 14px;
+}
+
+.conversationMessagesCheck{
+    font-size: 10px;
+}
+
+.chatNameWrapper{
+    width: -webkit-fill-available;
+}
+
+.status{
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.online{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 2px solid green;
+    background-color: green;
+    /* position: absolute;
+    right: 10px;
+    top : 10px; */
+}
+
+.offline{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    background-color: lightgray;
+    /* position: absolute;
+    right: 36px;
+    top : 24px; */
+}
+

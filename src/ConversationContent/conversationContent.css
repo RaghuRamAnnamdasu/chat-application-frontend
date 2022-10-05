@@ -1,0 +1,42 @@
+.myMessageEnclosure{
+    justify-content: end;
+    margin-left: auto;
+    background-color: lightblue;
+    /* align-items: flex-end; */
+}
+
+.friendMessageEnclosure{
+    justify-content: start;
+    margin-right: auto;
+    background-color: beige;
+    /* align-items: flex-start; */
+}
+
+.myMessageEnclosure,
+.friendMessageEnclosure {
+    display: grid;
+    gap: 5px;
+    max-width: 80%;
+    width: fit-content;
+    padding: 16px;
+    border-radius: 8px;
+    height: fit-content;
+    margin-bottom: 8px;
+}
+
+/* .dummyEnclosureForCSS{
+    width: fit-content !important;
+    background-color: beige;
+    border-radius: 8px;
+    padding: 16px;
+} */
+
+.messageContent,
+.messageDeliveryTime{
+    width: 100%;
+}
+
+.messageDeliveryTime{
+    font-size: 12px;
+    text-align: right;
+}

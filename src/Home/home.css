@@ -1,0 +1,98 @@
+.homeWrapper{
+    height: 100vh;
+    /* background-color: red */
+}
+.chatContainer{
+    height: calc(100vh - 75px);
+    /* background-color: red; */
+    display:flex;
+}
+
+.chatListWrapper{
+    flex:3;
+    border-right: 1px solid darkkhaki;
+}
+
+.chatDetailsWrapper{
+    flex:9;
+    border-right: 1px solid darkkhaki;
+}
+
+
+.chatConversationWrapper {
+    padding : 16px 16px;
+    overflow: auto;
+    height: calc(100% - 158px);
+}
+
+.chatListWrapper,
+.chatDetailsWrapper,
+.chatOnlineListWrapper
+{
+    padding : 16px 16px;
+    height: calc(100% - 32px);
+}
+
+.chatDetailsWrapper {
+    padding: 0;
+    height: calc(100% - 20px);
+    padding-bottom: 20px;
+}
+
+.searchEnclosure{
+    position: relative;
+    width: inherit;
+}
+.searchEnclosure input{
+    height: 30px;
+    width: calc(100% - 32px);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.searchIcon{
+    height: 30px !important;
+}
+
+.searchIcon{
+    position: absolute !important;
+    top: 9px;
+    right: 25px;
+    color: #757575;
+}
+
+.friendDetailsHeader {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: darkkhaki;
+    padding: 8px 16px;
+}
+
+.friendDetailsHeader img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.textInputEnclosure{
+    display: flex;
+    width: calc(100% - 32px);
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px
+}
+
+.messageTextField{
+    width: 95%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.noSearchResultsText{
+    font-size: 14px;
+}

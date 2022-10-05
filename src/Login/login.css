@@ -1,0 +1,195 @@
+
+
+ .login {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .loginContent,
+ .signupContent {
+     box-shadow: 0 0 10px 0 #ccc;
+     display: grid;
+     align-items: center;
+     /* margin: auto; */
+     padding: 24px;
+     /* margin-top: 20px; */
+     background: #fff;
+     width: 320px;
+     gap: 16px;
+ }
+
+ .loginContent {
+    justify-items: center;
+ }
+
+ .signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ 
+ 
+ .login .iconWrapper,
+ .signup .iconWrapper {
+     display: flex;
+     color: #000;
+     justify-content: center;
+ }
+ .login .iconWrapper,
+ .signup .iconWrapper {
+    display: grid;
+    justify-items: center;
+ }
+ .iconWrapper img{
+     height: 50px;
+     width: 50px;
+ }
+ 
+ .emailWrapper,
+ .passwordWrapper,
+ .displayNameWrapper {
+     display: grid;
+     width: inherit;
+ }
+ 
+ .emailWrapper input,
+ .passwordWrapper input,
+ .displayNameWrapper input {
+     height: 32px;
+     margin-top: 8px;
+ }
+ 
+ .noAccount,
+ .accountExists,
+ .forgotPasswordLink {
+     font-size: 14px;
+     justify-content: center;
+     display: flex;
+ }
+ 
+ .noAccount span,
+ .accountExists span,
+ .forgotPasswordLink span {
+     color: dodgerblue;
+     cursor: pointer;
+ }
+ 
+ .login button,
+ .signup button {
+     text-transform: capitalize;
+     width: inherit;
+ }
+ 
+ .emailError,
+ .passwordError {
+     color: firebrick;
+     font-size: 13px;
+ }
+ 
+ .redBorderInput {
+     border: 1px solid firebrick;
+ }
+
+ .invalidErrorMessage {
+    color: firebrick;
+ }
+
+ .login img {
+    width: 420px;
+ }
+
+ .iconWrapper img{
+    width: 200px;
+    margin-bottom: 24px;
+ }
+
+ .iconWrapper h2,
+ .iconWrapper h3 {
+    margin: 0;
+ }
+
+ .signUpRightWrapper {
+    display: grid;
+    background-color: darkslateblue;
+    color: #fff;
+    padding: 20px 40px;
+    width: 300px;
+ }
+
+ .signUpRightWrapper h2 {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 30px;
+ }
+
+.portalDescription {
+    font-size: 24px;
+    color: lightseagreen;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.signUpimageWrapper img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    object-fit: cover;
+  }
+
+  .signUpimageWrapper{
+    justify-self: center;
+  }
+
+  .signUpLoading{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .uploadFileWrapper {
+    text-align: center;
+  }
+
+  .uploadFileWrapper input {
+    visibility: hidden;
+    height: 1px;
+  }
+
+  .uploadFileWrapper label {
+    cursor: pointer;
+    font-weight: 500;
+    color: darkred;
+    border: 1px dotted;
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .profilePhotoUploadWrapper,
+  .loginLogoWrapper {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .loginContent img {
+    width: 200px;
+  }
+
+  .loginContent .logoText {
+    color: limegreen;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+  }
